@@ -1,0 +1,495 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Poppins;
+}
+body{
+    background-color: #000000;
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0.5, 1), rgba(0, 0, 0.5, 0.5)), url('Images/IN-en-20210524-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+    background-size: cover;
+    border-bottom: 5px solid rgb(96, 3, 26);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.sign_div select{
+    border: 1px solid white;
+    color: white;
+    padding: 8px 10px;
+    background-color:transparent;
+    margin-right: 20px;
+}
+.sign_div select option{
+    background-color: gray;
+}
+.sign_div a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 2px;
+    font-family: sans-serif;
+    background-color: #e10712;
+}
+.logo_div{
+    width: 150px;
+}
+.logo_div img{
+    width: 100%;
+}
+.content_header{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:sans-serif;
+    margin-top: 50px
+}
+.content_header h1{
+    padding: 0px 50px;
+    width: 55%;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.content_header h3{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.content_header p{
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+.search{
+    width: 680px;
+    display: flex;
+    padding: 0px 0px 0px 14px ;
+}
+.search input{
+    width: 67%;
+    height: 60px;
+    padding-left:10px ;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 2px solid white;
+    background-color: rgb(26, 23, 23);
+}
+.search .get_started{
+    width: 31%;
+    height: 60px;
+    padding: 5px 10px;
+    color: white;
+    font-size: 26px;
+    background-color: #e10712;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.section_a{
+    color: white;
+    padding: 50px;
+}
+.section_a h2, select{
+    margin-left: 30px;
+}
+.plans, .reasons{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.plan, .reason{
+    width: 220px;
+    border: 0px solid purple;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: rgb(59, 1, 35);
+    margin-left: 0px;
+    text-align: justify;
+}
+.reason{
+    background-color: rgb(16, 16, 35);
+    font-size: 20px;
+    text-align: left;
+}
+.icon{
+    margin-top: 30px;
+}
+.plan:hover{
+    background-color: rgb(59, 20, 45);
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .5s transform;
+}
+.option select{
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 7px;
+    color: #c9ebf0;
+    outline: none;
+    padding: 5px 30px;
+    font-size: 16px;
+    background-color: transparent;
+}
+.option select:hover{
+    cursor: pointer;
+}
+
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    margin: 50px;
+}
+.image_slider {
+    display: flex;
+}
+.image_slider img {
+    height: 300px;
+    width: 200px;
+    margin-right: 20px; /* Space between images */
+    border-radius: 20px;
+}
+.image_slider img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: .2s transform;
+}
+button.prev,
+button.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(14, 12, 12, 0.9);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    height: 100px;
+}
+button.prev {
+    left: 0;
+}
+
+button.next {
+    right: 0;
+}
+
+.game{
+    margin: 30px;
+    display: flex;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, rgb(36, 3, 36) , black);
+}
+.game .game_desc{
+    padding: 70px;
+    text-align: justify;
+}
+.game_img img{
+    border-radius: 20px;
+}
+.section_3{
+    height: auto;
+    background-color: #000000;
+    padding: 50px;
+}
+.section_3 h1{
+    color: white;
+    padding: 50px 0px;
+    font-size: 45px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons button{
+    width: 65%;
+    height: 70px;
+    text-align: left;
+    padding:20px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+    background-color: #303030;
+    color: white;
+    font-size: 24px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.faq-answer{
+    background-color: #303030;
+    color: white;
+    width: 61.3%;
+    height: auto;
+    padding: 20px;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-top: -4px;
+    margin-bottom: 5px;
+}
+.section_3 .buttons button span {
+    float: right;
+    font-size: 40px;
+    cursor: pointer;
+}
+.closed {
+    display: none;
+}
+.rotate {
+    transform: rotate(45deg);
+}
+.readyToWatch{
+    color: white;
+    font-size: 17px;
+    margin: 50px 0px 20px 0px;
+    font-family: sans-serif;
+}
+
+footer{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #000000;
+    color:#6f7677;
+    font-family: sans-serif;
+    padding: 10px 250px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer h1{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+footer h1 a{
+    text-decoration: none;
+    color: #6f7677;
+}
+.foot_info{
+    display: flex;
+    margin-bottom: 50px;
+}
+.foot_info li{
+    list-style-type: none;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+.foot_info li a{
+    color: #d7e7e9;
+    font-size: 12px;
+}
+.below_info select{
+    border: 1px solid rgb(122, 122, 122);
+    border-radius: 7px;
+    color: #c9ebf0;
+    padding: 5px 30px;
+    font-size: 16px;
+    background-color: transparent;
+    margin-bottom: 50px;
+    margin-left: -10px;
+}
+.below_info select option:hover{
+    background-color: rgb(4, 51, 70);
+    color: white;
+}
+.below_info h2{
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+    padding-bottom: 90px;
+}
+
+    /* tablet */
+    @media(min-width:600px) and (max-width:1224px){
+    header{
+        height: 700px;
+    }
+    .content_header{
+        margin-top: 100px;
+    }
+    .content_header h1{
+        width: 80%;
+        font-size: 48px;
+    }
+    .content_header h3{
+        font-size: 26px;
+    }
+    .content_header p{
+        width: 60%;
+        text-align: center;
+        font-size: 22px;
+    }
+    .search{
+        justify-content: center;
+    }
+    .search input{
+        width: 45%;
+        height: 50px;
+        margin-bottom: 5px;
+    }
+    .search .get_started{
+        width: 35%;
+        height: 50px;
+        padding: 7px 10px ;
+        font-size: 18px;
+    }
+    .plans, .reasons{
+        display: flex;
+        flex-wrap: wrap;   
+        gap: 30px;
+    }
+    .plan,.reason{
+        flex-basis: 45%; 
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        }
+
+
+.game .game_desc{
+    padding: 10px;
+}
+.game_img img{
+    width: 300px;
+    height: 300px;
+}
+
+.section_3 h1{
+        font-size: 40px;
+    }
+    .buttons button{
+        width: 85%;
+        height: 70px;
+        font-size: 22px;
+    }
+    .faq-answer{
+        width: 85%;
+        font-size: 22px;
+    }
+    .readyToWatch{
+        width: 65%;
+        text-align: center;
+        font-size: 25px;
+    }
+    footer{
+        padding: 50px 70px;
+    }
+    .foot_info li{
+        margin-right: 50px;
+    }
+}
+
+    /* mobile */
+    @media(min-width:200px) and (max-width:600px){
+    header{
+        height: 550px;
+    }
+    .logo_div{
+        width: 35%;
+    }
+    header nav{
+        padding:20px  ;
+    }
+    .content_header{
+        margin-top: 0px;
+    }
+    .content_header h1{
+        width: 100%;
+        padding: 0;
+        font-size: 27px;
+    }
+    .content_header h3{
+        font-size: 20px;
+    }
+    .content_header p{
+        width: 80%;
+        text-align: center;
+        font-size: 20px;
+    }
+    .search{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 90%;
+    }
+    .search input{
+        width: 60%;
+        height: 48px;
+        margin-bottom: 5px;
+    }
+    .search .get_started{
+        width: 250px;
+        height: 48px;
+        padding: 7px 10px ;
+        font-size: 18px;
+    }
+    .plans,.reasons{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .plan, .reason{
+        width: 250px;
+    }
+
+    .option select{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .game{
+        flex-direction: column;
+    }
+    .game .game_desc{
+    padding: 10px;
+    }
+    .game_img img{
+    width: 300px;
+    height: 200px;
+    }
+    .section_3 h1{
+        font-size: 30px;
+    }
+    .buttons{
+        margin-top: -20px;
+    }
+    .buttons button{
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+    }
+    .faq-answer{
+        width: 100%;
+        font-size: 20px;
+    }
+    .readyToWatch{
+        width: 100%;
+        text-align: center;
+        font-size: 24px;
+    }
+    footer{
+        padding: 50px 0px 50px 30px;
+    }
+    .foot_info{
+        flex-wrap: wrap;
+    }
+    .foot_info li{
+        margin-right: 60px;
+    }
+}
